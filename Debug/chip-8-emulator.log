@@ -1,0 +1,29 @@
+﻿  chip8.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\random(1898,5): error C2338: invalid template argument for uniform_int_distribution: N4659 29.6.1.1 [rand.req.genl]/1e requires one of short, int, long, long long, unsigned short, unsigned int, unsigned long, or unsigned long long
+C:\Users\16477\source\repos\chip-8-emulator\chip-8-emulator\chip8.h(24): message : see reference to class template instantiation 'std::uniform_int_distribution<uint8_t>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\random(1898,1): error C2338: note: char, signed char, unsigned char, char8_t, int8_t, and uint8_t are not allowed
+C:\Users\16477\source\repos\chip-8-emulator\chip-8-emulator\chip8.h(45,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\16477\source\repos\chip-8-emulator\chip-8-emulator\chip8.h(42,1): error C2182: 'op_': illegal use of type 'void'
+C:\Users\16477\source\repos\chip-8-emulator\chip-8-emulator\ROM.cpp(33,2): error C2600: 'Chip8::Chip8': cannot define a compiler-generated special member function (must be declared in the class first)
+C:\Users\16477\source\repos\chip-8-emulator\chip-8-emulator\ROM.cpp(33,69): warning C4244: 'argument': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+C:\Users\16477\source\repos\chip-8-emulator\chip-8-emulator\ROM.cpp(33,69): message : This diagnostic occurred in the compiler generated function 'Chip8::Chip8(void)'
+C:\Users\16477\source\repos\chip-8-emulator\chip-8-emulator\ROM.cpp(58,27): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+  ROM.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\random(1898,5): error C2338: invalid template argument for uniform_int_distribution: N4659 29.6.1.1 [rand.req.genl]/1e requires one of short, int, long, long long, unsigned short, unsigned int, unsigned long, or unsigned long long
+C:\Users\16477\source\repos\chip-8-emulator\chip-8-emulator\chip8.h(24): message : see reference to class template instantiation 'std::uniform_int_distribution<uint8_t>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\random(1898,1): error C2338: note: char, signed char, unsigned char, char8_t, int8_t, and uint8_t are not allowed
+C:\Users\16477\source\repos\chip-8-emulator\chip-8-emulator\chip8.h(45,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\16477\source\repos\chip-8-emulator\chip-8-emulator\chip8.h(42,1): error C2182: 'op_': illegal use of type 'void'
+C:\Users\16477\source\repos\chip-8-emulator\chip-8-emulator\ROM.cpp(33,2): error C2600: 'Chip8::Chip8': cannot define a compiler-generated special member function (must be declared in the class first)
+C:\Users\16477\source\repos\chip-8-emulator\chip-8-emulator\ROM.cpp(33,69): warning C4244: 'argument': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+C:\Users\16477\source\repos\chip-8-emulator\chip-8-emulator\ROM.cpp(33,69): message : This diagnostic occurred in the compiler generated function 'Chip8::Chip8(void)'
+C:\Users\16477\source\repos\chip-8-emulator\chip-8-emulator\ROM.cpp(58,27): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+  Generating Code...
